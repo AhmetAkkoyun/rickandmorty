@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, { useEffect, useState } from "react";
+import User from "./pages/user";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(/*{ prop1 }*/) {
+  // const [state1, setState1] = useState({ key1: "value1", key2: "value2" });
+
+  // useEffect(() => {
+  //   // * prop1 her değiştiğinde buraya girecek.
+  // }, [prop1]);
+
+  // useEffect(() => {
+  //   // * state1.key veya prop1 her değiştiğinde buraya girecek.
+  // }, [state1.key1, prop1]);
+
+  // useEffect(() => {
+  //   // * state1.key her değiştiğinde buraya girecek.
+  // }, [state1.key1]);
+
+  // useEffect(() => {
+  //   // * state1 her değiştiğinde buraya girecek.
+  // }, [state1]);
+
+  // useEffect(() => {
+  //   // * component ilk render olduğunda buraya girecek.
+  // }, []);
+
+  return (<div className="App">
+    <User />
+  </div>);
 }
 
 export default App;
