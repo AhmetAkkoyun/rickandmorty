@@ -1,0 +1,20 @@
+.character-page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+
+}
+.CharCard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Portal {
+    position: absolute;
+  }
+}
+
+
+
