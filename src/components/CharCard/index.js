@@ -71,5 +71,4 @@ const CharCard = ({ character }) => {
         </div>
     );
 };
-
 export default CharCard;
